@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+.calculator{
+    background-color: blue;
+    width: 40%;
+    height: 80vh;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+    }
+    h1{
+        margin: 10px;
+        font-size: 4rem;
+        color: rgb(6, 9, 12);
+    }
+    
+#screen{
+    
+    margin-bottom: 5px;
+    width: 100%;
+    height: 10vh;
+    font-size: 4rem;
+    background: rgb(142, 206, 200);
+    color: rgb(41,41,56);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.btn{
+    width: 24%;
+    height: 10vh;
+    font-size: 4rem;
+    background-color: white;
+    transition: all 0.5s linear;
+    border-radius: 4rem;
+    margin-bottom: 2px;
+}
+
+.plus, .minus,.multiply, .del, .equal, .dot, .divide{
+    background-color: rgb(41,41,56);
+    color: white;
+}
+.ac{
+    background-color: rgb(225, 240, 145);
+}
+.plus:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(41,41,56);
+}
+.minus:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(41,41,56);
+}
+.multiply:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(41,41,56);
+}
+.ac:hover{
+    background-color: brown;
+    color: rgb(27, 19, 19);
+}
+ .del:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(41,41,56);
+}
+.equal:hover{
+    background-color:  rgb(255, 255, 255);
+    color: rgb(41,41,56);
+}
+.dot:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(41,41,56);
+}
+.divide:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(41,41,56);
+}
+
+
+.btn1:hover{
+    background-color: rgb(250, 176, 79);
+}
+.ac{
+    width: 100%;
+    border-radius: 4rem;
+}
